@@ -7,6 +7,7 @@
 
 int main()
 {
+    //Task_1
     Point points[5] =
     {
         { Point('a', 5, 11) },
@@ -23,8 +24,12 @@ int main()
     areaPentagon += areaOfTheTriangle(points[0], points[3], points[4]);
 
     std::cout << "Площадь пятиугольника: " << areaPentagon;
+
+    //Task_2
+
 }
 
+//Task_1
 double areaOfTheTriangle(const Point& a, const Point& b, const Point& c)
 {
     double* sidesOfTriangle = new double[3];
@@ -48,25 +53,4 @@ double distancePiont(const Point & a, const Point & b )
     return sqrt(pow(a._x - b._x, 2.0) + pow(a._y - b._y, 2.0));
 };
 
-
-//попытка рекурсии
-//void test(int l, int r, const Point points[])
-//{
-//    if (r - l <= 3) {
-//        for (unsigned int i = l; i <= r; ++i) 
-//        {
-//            for (unsigned int j = i+1; j <= r; ++j)
-//            {
-//                distancePiont(points[i], points[j]);
-//            }
-//        }
-//        //formulaHerons(pesidesOfTrianglerim)
-//        return;
-//    }
-//
-//    int m = (l + r) >> 1;
-//
-//    pairOfDots(l, m, points), pairOfDots(m + 1, r, points);
-//
-//    std::cout << "Конец" << std::endl;
-//};
+//Task_2

@@ -35,6 +35,7 @@ int main()
 
 }
 
+//Task_1
 void isItaLeapYear(int year) 
 {
 	if (year && (year <= 9999)) 
@@ -48,6 +49,7 @@ void isItaLeapYear(int year)
 	}
 }
 
+//task_2
 double maximumFromThereeNumbers(double* numbers)
 {
 	double max;
@@ -64,6 +66,7 @@ double maximumFromThereeNumbers(double* numbers)
 	return max;
 }
 
+//Task_3
 void exchangeOfCoins(double wallet)
 {
 	constexpr size_t size = 5;
@@ -85,6 +88,7 @@ void exchangeOfCoins(double wallet)
 	std::cout << "Остаток: " << wallet;
 }
 
+//Task_4
 int shoot()
 {
 	enum scores { zeroScore = 0, oneScore = 1, fiveScore = 5, tenScore = 10 };
