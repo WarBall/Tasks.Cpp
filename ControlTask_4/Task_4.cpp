@@ -3,10 +3,10 @@
 
 int main()
 {
-    //double a, b, c, x1, x2;
-    //int root;
+    double a, b, c, x1, x2;
+    int root;
 
-    /*std::cout << "Введите три числа для вычисление корней квадратного уравнения: " << std::endl;
+    std::cout << "Введите три числа для вычисление корней квадратного уравнения: " << std::endl;
     
     std::cout << "a = ";
     std::cin >> a;
@@ -34,7 +34,7 @@ int main()
     default:
         std::cout << "Ooops\n";
         break;
-    }*/
+    }
 
     int f, g;
     if (input(f, g) == false) 
