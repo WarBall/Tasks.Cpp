@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Task_8.cpp">
+    <ClCompile Include="ControlTask_9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassTriangle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ClassTime.cpp">
@@ -23,6 +26,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Triangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="Time.h">
       <Filter>Header Files</Filter>
     </ClInclude>
