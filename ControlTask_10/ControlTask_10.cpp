@@ -28,20 +28,19 @@ int main()
 
 
     //Композиция
-    Dot d4 (2,3);
-    Dot d5 (4,6);
-    Dot d6 (7,9);
     
-    Triangle triangle1(d4, d5, d6);
+    Triangle* triangle1 = new Triangle(Dot(2, 3), Dot(4, 6), Dot(7, 9));
     
     double lineA, lineB, lineC;
 
-    triangle1.getSides(lineA, lineB, lineC);
+    triangle1->getSides(lineA, lineB, lineC);
 
     std::cout << "\nДлина отрезка А: " << lineA << "\nДлина отрезка В: " << lineB << "\nДлина отрезка С: " << lineC;
 
-    std::cout << "\nПериметр треугольника: "<< triangle1.getPerimeter();
+    std::cout << "\nПериметр треугольника: "<< triangle1->getPerimeter();
 
-    std::cout << "\nПлощадь треугольника: "<< triangle1.getArea();
+    std::cout << "\nПлощадь треугольника: "<< triangle1->getArea();
+
+    delete triangle1;
     
 }
