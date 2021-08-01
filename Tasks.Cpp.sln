@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ControlTask_14", "ControlTa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ControlTask_15", "ControlTask_15\ControlTask_15.vcxproj", "{583A42DF-B08A-4962-AB97-5DD1B932234E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AddressBook", "AddressBook\AddressBook.vcxproj", "{042E35D2-38CE-427F-95DE-3096074991AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{583A42DF-B08A-4962-AB97-5DD1B932234E}.Release|x64.Build.0 = Release|x64
 		{583A42DF-B08A-4962-AB97-5DD1B932234E}.Release|x86.ActiveCfg = Release|Win32
 		{583A42DF-B08A-4962-AB97-5DD1B932234E}.Release|x86.Build.0 = Release|Win32
+		{042E35D2-38CE-427F-95DE-3096074991AF}.Debug|x64.ActiveCfg = Debug|x64
+		{042E35D2-38CE-427F-95DE-3096074991AF}.Debug|x64.Build.0 = Debug|x64
+		{042E35D2-38CE-427F-95DE-3096074991AF}.Debug|x86.ActiveCfg = Debug|Win32
+		{042E35D2-38CE-427F-95DE-3096074991AF}.Debug|x86.Build.0 = Debug|Win32
+		{042E35D2-38CE-427F-95DE-3096074991AF}.Release|x64.ActiveCfg = Release|x64
+		{042E35D2-38CE-427F-95DE-3096074991AF}.Release|x64.Build.0 = Release|x64
+		{042E35D2-38CE-427F-95DE-3096074991AF}.Release|x86.ActiveCfg = Release|Win32
+		{042E35D2-38CE-427F-95DE-3096074991AF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
